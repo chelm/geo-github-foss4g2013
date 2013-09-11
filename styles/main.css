@@ -135,7 +135,7 @@ code {
   padding: 26px !important;
 }
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: source-sans-pro, sans-serif;
   font-size: 18px;
   color: #404040;
 }
@@ -173,4 +173,11 @@ p {
 a {
   color: #0093cc;
   text-decoration: none;
+}
+div.credit {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+  text-shadow: 1px 1px #aaa;
 }

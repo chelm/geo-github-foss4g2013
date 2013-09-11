@@ -1,0 +1,297 @@
+!!! 5
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Geospatial Github
+
+    //- Check out 'src/bower_components/prism/' for available themes
+    link(rel='stylesheet', type='text/css', href='bower_components/prism/prism-tomorrow.css')
+
+    link(rel='stylesheet', type='text/css', href='styles/main.css')
+
+  body
+
+    article#parent
+
+      section
+        h1 Geospatial Github
+        hr
+        h2 Christopher Helm
+        h3.bullet 
+          a(href='http://twitter.com/cwhelm') @cwhelm
+
+        h3 Esri DC Dev Center
+
+      section
+        h2 Exploring github & geo 
+
+      section
+        h2 Github is pretty nice  
+        h3 Social Coding & Collaboration 
+        h3 Low barrier
+        h3 Where the community is  
+
+      section
+        h2 Github ~ Development
+        h3 Part of daily life 
+
+      section
+        h1 
+          a(href="https://status.github.com/") https://status.github.com/
+
+      section
+        h2
+          a(href='http://esri.github.com') Esri on Github
+        h2 More open, More Efficient
+        code.language-javascript
+          pre.
+            "Everything that can be open, should be open" - Scott Morehouse
+
+      section 
+        h2 Sound Board  
+        h3 Exploring ideas through code
+        h3 some work ... many don't 
+
+      section 
+        h2 My Github Account 
+        h3 
+          a(href="https://github.com/chelm") https://github.com/chelm
+        h4 > 50% is total crap
+
+      section 
+        h2 Github Resumes
+        h3
+          a( href="http://resume.github.io/") http://resume.github.io
+        h2
+          a( href="http://resume.github.io/?pramsey") pramsey
+        h2
+          a( href="http://resume.github.io/?jatorre") jatorre
+        h2 
+          a( href="http://resume.github.io/?tschaub") tschaub 
+        h2                              
+          a( href="http://resume.github.io/?chelm") chelm 
+
+      section 
+        h2 Open Source Report Cards
+        h3
+          a( href="http://osrc.dfm.io" ) http://osrc.dfm.io
+        h2
+          a( href="http://osrc.dfm.io/pramsey") pramsey
+        h2
+          a( href="http://osrc.dfm.io/jatorre") jatorre
+        h2 
+          a( href="http://osrc.dfm.io/tschaub") tschaub  
+        h2                              
+          a( href="http://osrc.dfm.io/chelm") chelm
+        
+      section 
+        h2 
+          a(href='http://esri.github.com') Esri on Github
+        h2 More open, More Efficient  
+        code.language-javascript
+          pre.
+            "Everything that can be open, should be open" - Scott Morehouse
+
+      //- section
+      //-   h2 Distributed Teams 
+      //-   h3 5 R&D Centers around the world
+      //-   h1 Github enterprise
+
+      //- section
+      //-   h2 Hadoop 
+      //-   h3 
+      //-     a( href="https://github.com/Esri/gis-tools-for-hadoop" ) GIS Tools for Hadoop
+      //-   h3 
+      //-     a( href="https://github.com/Esri/spatial-framework-for-hadoop" ) Spatial Framework for Hadoop
+      //-   h3
+      //-     a( href="https://github.com/Esri/geometry-api-java" ) Java Geometry Api
+      //-   code.language-javascript
+      //-     pre.
+      //-       An awesome set of tools for tons of data
+      //-   
+      //- 
+      //- section 
+      //-   h1 
+      //-     a( href="https://github.com/search?q=%40Esri+terraformer") Terraformer 
+      //-   ul 
+      //-     li Javascript for Node.js & Browsers 
+      //-     li Format conversions
+      //-     li Geospatial indexing 
+
+      //- section
+      //-   h1
+      //-     a( href="https://github.com/Esri/esri-leaflet") Esri Leaflet 
+      //-   ul
+      //-     li Leaflet plugin for Esri ArcGIS Online Services.
+      //-     li 
+      //-       a(href="http://esri.github.io/esri-leaflet/symbolizelinefeatures.html") Symbolizing Line Features
+
+      section
+        h1 June 13, 2013
+        h2.bullet 
+        h2.bullet 
+          a(href="https://help.github.com/articles/mapping-geojson-files-on-github") Github & GeoJSON
+
+      section 
+        h1 Lots of cool uses!
+        h3.bullet Rate limits 
+        h3.bullet Size restrictions 
+        h3.bullet its really just a toy at this point 
+
+      section 
+        h1 but what if...
+
+      section
+        h2 Github is a geospatial platform? 
+        h4 
+          a(href="http://blog.geomusings.com/2013/07/28/devops-for-geospatial-data/") Bill Dollins take
+
+      section 
+        h1 bonus
+        h3.bullet tracking 
+        h3.bullet issues
+        h3.bullet forking
+         
+      section 
+        h2 Exploring a geospatial github
+        
+      section
+        h2 
+          a(href="https://github.com/chelm/grunt-geo") Grunt-Geo by chelm
+        h3.bullet A grunt plugin to find the geographic center of a git repo 
+        h3.bullet 
+          a(href="https://github.com/chelm/grunt-geo/blob/master/samples/Leaflet.geojson") Leaflet 
+        h3.bullet 
+          a(href="https://github.com/chelm/grunt-geo/blob/master/samples/jashkenas-backbone.geojson") Backbone 
+  
+      section
+        h2 
+          a(href="https://github.com/project-open-data/esri2open") esri2open
+        h3.bullet toolbox for exporting data from ArcMap 
+          h4 defaults to geojson
+
+      section 
+        h2 
+          a(href="https://github.com/calvinmetcalf/esri2open") esri2open (to gist)
+        h3.bullet 
+          export to 
+          strong 
+            gist.github.com 
+        h3.buller Gists also give love to geojson!
+
+      section 
+        h2 QGIS to Gist?
+
+      section
+        h2 
+          a(href="https://github.com/mapbox/geojson.io") mapbox/geojson.io FTW!
+        h3 
+          GeoJSON CRUD, saves to gists
+        h3.bullet 
+          chrome extension too?
+          img(src="images/geojsonio1.png")
+
+      section 
+        h2 
+          a(href="https://github.com/tschaub/mapjack") tschaub/mapjack
+        img(src="images/mapjack.gif")
+
+      section
+        h2
+          a(href="https://github.com/chelm/geohub") chelm/geohub
+        h3 Extract geojson from Github
+        code.language-javascript
+          pre.
+            var Geohub = require('geohub');
+            Geohub.gist( id, callback );
+            Geohub.repo( user, repo, filepath, callback );
+        
+
+      section 
+        h2
+          a(href="https://github.com/esri/koop") Esri/koop
+        img(src="https://f.cloud.github.com/assets/351164/864572/24113276-f624-11e2-831d-50cf8395b200.png")
+
+      section
+        h2
+          a(href="https://github.com/esri/koop") Esri/koop
+        h3.bullet Geospatial filter and queries
+        h3.bullet dynamic data caching 
+        h3.bullet 3rd party API adapters 
+        
+      section 
+        h1 End?
+
+      //- section 
+      //-   h2 Vector Tiles 
+
+      //- section 
+      //-   h2 Polymaps 
+      //-   h3 Geometries are separate from attributes
+      //-   
+      //- section 
+      //-   h2 Vector Tiles in d3 
+      //-   
+      //- section 
+      //-   h2 Vecnik by vizzuality 
+      //-   h3 Vector tiles 
+      //-   h3 obesity map 
+
+      //- section 
+      //-   h2 https://github.com/chelm/tylr tylr  
+      //-   
+      //- section 
+      //-   h2 https://github.com/mdaines/ceramic ceramic 
+
+      //- section 
+      //-   h2 https://github.com/mapbox/mapnik-vector-tile     
+
+      //- section 
+      //-   h2 https://github.com/migurski/TileStache 
+        
+         
+      //- section 
+      //-   h2 Vecnik  
+      //-   h3.bullet Vizzuality 
+      //-   h3.bullet About 
+      //-   h3.bullet Demo
+
+      //- section 
+      //-   h2 https://github.com/bjornharrtell/jsts
+      //-   h3.bullet bjornharrtell 
+      //-   h3.bullet About 
+      //-   h3.bullet Demo
+
+      //- section
+      //-   h2 Ceramic
+      //-   h3.bullet Author
+      //-   h3.bullet https://github.com/mdaines/ceramic
+      //-   h3.bullet Demo
+
+      //- section
+      //-   h2 https://github.com/mapbox/mapnik-vector-tile
+      //-   h3.bullet Author
+      //-   h3.bullet About
+      //-   h3.bullet Demo
+
+    //-  https://github.com/chelm/canvas_animation
+    //- https://github.com/calvinmetcalf/shapefile-js
+    //- https://github.com/calvinmetcalf/proj4js
+    //- https://github.com/atogle/walkshed.js - http://walkshed.js.s3.amazonaws.com/index.html
+    //- https://github.com/atogle/costdistance.js
+    //- http://atogle.github.io/pointillist/ - - http://www.koalastothemax.com/
+    //- https://github.com/chelm/tylr
+    //- https://github.com/chelm/esri-d3
+    //- https://github.com/mbostock/shapefile/blob/master/test/index-test.js - https://github.com/mbostock/shapefile
+    //- https://github.com/JerrySievert/terraformer-geostore-leveldb
+
+           
+
+    script(src='bower_components/jquery/jquery.min.js')
+    script(src='bower_components/bespoke.js/dist/bespoke.min.js')
+    script(src='bower_components/bespoke-bullets/dist/bespoke-bullets.min.js')
+    script(src='bower_components/bespoke-hash/dist/bespoke-hash.min.js')
+    script(src='bower_components/bespoke-state/dist/bespoke-state.min.js')
+    script(src='bower_components/prism/prism.js')
+    script(src='scripts/main.js')
