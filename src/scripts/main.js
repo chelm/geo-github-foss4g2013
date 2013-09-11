@@ -23,7 +23,7 @@ slideConfig = [
   { img: '', credit: '', css: {background:'none'}},
   { img: '', credit: '', css: {background:'none'}},
   { img: 'images/plane.jpg', credit: 'http://www.flickr.com/photos/aaronvandike/2890984258', css: {background:'none', color: '#eee', textShadow: '2px 2px 10px #f50' }},
-  { img: 'images/grunt-geo.jpeg', credit: 'grunt', css: {background:'none'}},
+  { img: 'images/grunt-geo.jpeg', credit: 'grunt', css: {background:'none', textShadow: '2px 2px 1px #555', color:'#fff'}},
   { img: 'images/open.jpeg', credit: 'esri2open', css: {background:'none', textShadow: '2px 2px 1px #FFF'}},
   { img: 'images/cmetcalf.jpeg', credit: 'esri2open2gist', css: {background:'none'}},
   { img: '', credit: 'qgis2gist', css: {background:'none'}},
