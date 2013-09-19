@@ -34,6 +34,15 @@ slideConfig = [
   { img: 'images/colors.jpg', credit: 'http://www.flickr.com/photos/jdhancock/5177358991', css: {background:'none'}},
   { img: '', credit: 'koop', css: {background:'none'}},
   { img: '', credit: 'koop', css: {background:'none'}},
+  { img: 'images/cat.jpg', credit: 'http://www.flickr.com/photos/aaronvandike/2660485296', css: {background:'none', color: '#fff'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
   { img: 'images/cat.jpg', credit: 'http://www.flickr.com/photos/aaronvandike/2660485296', css: {background:'none', color: '#fff'}}
 ] 
 
