@@ -121,9 +121,9 @@ html
       //-     li Leaflet plugin for Esri ArcGIS Online Services.
       //-     li 
       //-       a(href="http://esri.github.io/esri-leaflet/symbolizelinefeatures.html") Symbolizing Line Features
-
+  
       section
-        h1 June 13, 2013
+        h1 June 2013
         h2.bullet 
         h2.bullet 
           a(href="https://help.github.com/articles/mapping-geojson-files-on-github") Github & GeoJSON
@@ -141,16 +141,9 @@ html
         h1 but what if...
 
       section
-        h1 Github == geospatial platform? 
+        h1 could github be a geospatial platform? 
         //- h4 
         //-  a(href="http://blog.geomusings.com/2013/07/28/devops-for-geospatial-data/") Bill Dollins take
-
-      section 
-        h1 bonii
-        h3.bullet sharing 
-        h3.bullet tracking 
-        h3.bullet issues
-        h1.bullet forking!!!
 
       section
         h1 Open Data! 
@@ -172,6 +165,34 @@ html
         h3.bullet 
           a(href="https://github.com/chelm/grunt-geo/blob/master/samples/jashkenas-backbone.geojson") Backbone 
        //-  img(src="images/grunt.jpeg", width=)
+
+      section
+        h2
+          a(href="https://github.com/chelm/geohub") chelm/geohub
+        h3 Extract geojson from Github
+        code.language-javascript
+          pre.
+            var Geohub = require('geohub');
+            Geohub.gist( id, callback );
+            Geohub.repo( user, repo, filepath, callback );
+
+
+      section
+        h2
+          a(href="https://github.com/esri/koop") Esri/koop
+        img(src="https://f.cloud.github.com/assets/351164/864572/24113276-f624-11e2-831d-50cf8395b200.png")
+
+      section
+        h2
+          a(href="https://github.com/esri/koop") Esri/koop
+        h3.bullet Geospatial filter and queries
+        h3.bullet dynamic data caching
+        h3.bullet 3rd party API adapters
+
+      section
+        h2 Esri/koop
+        h2.bullet
+          a(href="https://koop.dc.esri.com") https://koop.dc.esri.com
   
       section
         h2 
@@ -189,7 +210,7 @@ html
         h3.buller Gists also give love to geojson!
 
       section 
-        h2 QGIS to Gist?
+        h2 Looking for a QGIS to Gist?
 
       section
         h2 
@@ -206,9 +227,6 @@ html
         img(src="images/mapjack.gif")
 
       section
-        h2 Industry Leaders -> Github
-
-      section
         h2
           a(href="https://github.com/chelm/geohub") chelm/geohub
         h3 Extract geojson from Github
@@ -218,23 +236,6 @@ html
             Geohub.gist( id, callback );
             Geohub.repo( user, repo, filepath, callback );
         
-
-      section 
-        h2
-          a(href="https://github.com/esri/koop") Esri/koop
-        img(src="https://f.cloud.github.com/assets/351164/864572/24113276-f624-11e2-831d-50cf8395b200.png")
-
-      section
-        h2
-          a(href="https://github.com/esri/koop") Esri/koop
-        h3.bullet Geospatial filter and queries
-        h3.bullet dynamic data caching 
-        h3.bullet 3rd party API adapters
-
-      section
-        h2 Esri/koop 
-        h2.bullet 
-          a(href="https://koop.dc.esri.com") https://koop.dc.esri.com
 
       section
         h1 End
