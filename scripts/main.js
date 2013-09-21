@@ -21,20 +21,21 @@ slideConfig = [
   { img: '', credit: '', css: {background:'none'}},
   { img: 'images/world_storm.jpg', credit: 'http://www.flickr.com/photos/jdhancock/3578558776', css: {color: '#fff',textShadow: '5px 5px 10px #055',  background:'none', width: '48%', top: '58%'}},
   { img: '', credit: '', css: {background:'none'}},
-  { img: '', credit: '', css: {background:'none'}},
   { img: 'images/plane.jpg', credit: 'http://www.flickr.com/photos/aaronvandike/2890984258', css: {background:'none', color: '#eee', textShadow: '2px 2px 10px #f50' }},
   { img: 'images/grunt-geo.jpeg', credit: 'grunt', css: {background:'none', textShadow: '2px 2px 1px #555', color:'#fff'}},
+  { img: '', credit: 'geohub', css: {background:'none'}},
+  { img: '', credit: 'koop', css: {background:'none'}},
+  { img: '', credit: 'koop', css: {background:'none'}},
+  { img: '', credit: '', css: {background:'none'}},
   { img: 'images/open.jpeg', credit: 'esri2open', css: {background:'none', textShadow: '2px 2px 1px #FFF'}},
   { img: 'images/cmetcalf.jpeg', credit: 'esri2open2gist', css: {background:'none'}},
   { img: '', credit: 'qgis2gist', css: {background:'none'}},
   { img: 'images/geojsonio2.png', credit: 'geojson.io', css: {background:'none', color: '#fff', textShadow: '2px 2px 10px #555'}},
   { img: '', credit: 'mapjack', css: {background:'none'}},
-  { img: 'images/wonder_woman.jpg', credit: 'http://www.flickr.com/photos/jdhancock/7038452711', css: {background:'none', color: '#fff',textShadow: '5px 5px 10px  #00f'}},
-  { img: '', credit: 'geohub', css: {background:'none'}},
-  { img: 'images/colors.jpg', credit: 'http://www.flickr.com/photos/jdhancock/5177358991', css: {background:'none'}},
-  { img: '', credit: 'koop', css: {background:'none'}},
-  { img: '', credit: 'koop', css: {background:'none'}},
   { img: 'images/cat.jpg', credit: 'http://www.flickr.com/photos/aaronvandike/2660485296', css: {background:'none', color: '#fff'}},
+  { img: 'images/wonder_woman.jpg', credit: 'http://www.flickr.com/photos/jdhancock/7038452711', css: {background:'none', color: '#fff',textShadow: '5px 5px 10px  #00f'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
+  { img: '', credit: 'vector tiles', css: {background:'none'}},
   { img: '', credit: 'vector tiles', css: {background:'none'}},
   { img: '', credit: 'vector tiles', css: {background:'none'}},
   { img: '', credit: 'vector tiles', css: {background:'none'}},
@@ -60,6 +61,8 @@ function update(e){
   } else {
     el.css("background", '');
   }
+
+  console.log(config.img);
 
   if ( config.credit ){
     $('.credit').html(config.credit);
